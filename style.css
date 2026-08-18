@@ -1,0 +1,197 @@
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 10px;
+    
+}
+.heroSection{
+    display: flex;
+    gap: 30px;
+   justify-content: center;
+   align-items: center;
+}
+.heroIndex{
+    position: absolute; 
+    left: 20px;
+    flex: 1;
+}
+.heroHead{
+    
+    font-size: 50px;
+    color: rgb(249, 246, 250);
+    margin-bottom: 15px;
+    
+}
+.heroPara{
+    color: rgb(249, 248, 250) ;
+    text-decoration: solid;
+    font-size: larger;
+    font-weight: 600;
+    
+}
+.heroButton{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(219, 25, 48);
+    color: white;
+    border: none;
+   border-radius: 15px;
+  
+
+
+}
+.heroButton:hover{
+    background-color: black;
+    
+
+}
+.heroIndex{
+    flex: 1;
+    animation: FadeIn 1.5s ease;
+    
+}
+.heroimage{
+    height: 800px;
+}
+.products{
+    padding: 0px 1% 80px 1%;
+   
+}
+.productHead{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(211, 34, 34);
+    font-size: 40px;
+}
+.productsubHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(120, 119, 119);
+    margin-bottom: 60px;
+}
+.productContainer{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Cards{
+    
+    background-color: rgb(248, 247, 247);
+    width: 250px;
+    height: 350px;
+    padding: 0px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+    transition: 0.75s;
+    margin-bottom: 30px
+}
+.Cards:hover{
+    transform:translateY(-30px);
+
+}
+
+
+.cardImage{
+    width: 100%;
+    height: 50%;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+
+}
+.cardHead, .cardPara{
+    margin: 15px;
+}
+.cardHead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+.cardPara{
+    color: rgb(120, 119, 119) ;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.cardbutton{
+  
+    margin-left: 15px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    color: rgb(111, 111, 219);
+}
+.Contact{
+     height: 200px;
+    background-color: white;
+    padding: 0px 8%;
+    margin-bottom: 40px;
+    
+   
+  
+    display: flex;
+    justify-content: space-between;
+   
+    flex-wrap: wrap;
+}
+.contactPara{
+    width: fit-content;
+}
+.contactHead{
+    margin: 20px 0px;
+    color: rgb(216, 31, 31);
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+   font-size: 30px;
+}
+.contactPara{
+    font-weight: lighter;
+    color: grey;
+    font-size: 14px;
+}
+.navHead, .supportHead, .footerContact{
+   margin: 20px 0px;
+   color:  rgb(214, 34, 34) ;
+   font-weight: bold;
+   font-size: 20px;
+   font-family: 'Courier New', Courier, monospace;
+}
+.supportLink{
+    text-decoration: none;
+    color: grey;
+    display: block;
+    margin-bottom: 15px;
+}
+.supportLink:hover{
+  transform: translateX(5px);
+}
+.contactDetails{
+  color:  rgb(203, 37, 37) ;
+  
+}
+.contactPhn{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+
+}
+.contactMail{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.contactLocation{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.addressPara{
+    color: grey;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
